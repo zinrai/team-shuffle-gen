@@ -25,7 +25,17 @@ Options:
 Example:
 
 ```bash
-$ cat name-list.txt | ./team-shuffle-gen.py -g 3 -n 5
+$ cat name-list.txt | ./team-shuffle-gen.py -g 2 -n 10
+Sato , Shimizu
+Kimura , Yamaguchi
+Sasaki , Yoshida
+Shimizu , Watanabe
+Kobayashi , Saito
+Yamamoto , Ito
+Inoue , Kobayashi
+Hayashi , Ito
+Yamaguchi , Kimura
+Matsumoto , Yamada
 ```
 
 This command will create 5 groups, each containing 3 people, from the names listed in `name-list.txt`.
